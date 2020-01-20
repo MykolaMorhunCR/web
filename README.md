@@ -86,12 +86,100 @@
   --------------------------------
   
   
+ # SPIWEB . As User I can import files from computer via Drag'n'Drop function 
+ ### Steps: 
+ - Launch app
+ - Sign In/Up (if not already done) 
+ - Press '+' icon 
+ - Open file-browser o your computer
+ - Find a File you want to upload 
  
+  | Action| Expected result |
+| ------ | ------ |
+| Drag a file, using your mouse, to Importing window (Unsupported format) | Error "'name of the file' is not supported", file doesn't appear in 'Import' window |
+| Drag a file, using your mouse, to Importing window (supported format) | File appears in Import window, 'Import' and 'Reset' buttons become avaliable |
+| Click reset | All files disappear from import window, 'Import' and 'Reset' buttons become N/A |
+| Click 'Import' | File appears in your Library |
 
+  
+  ### Acceptance Criteria 
+ - User can upload files, using Drag'n'Drop functionality
  
  
+  --------------------------------
+  
+  
+ # SPIWEB . As User i can import files from computer via Browse function 
+ ### Steps: 
+ - Launch app
+ - Sign In/Up (if not already done) 
+ - Press '+' icon 
  
+  | Action| Expected result |
+| ------ | ------ |
+| Press 'browse' button | File-browser opens, files of unsupported format are N/A |
+| Choose a file  | File appears in Import window, 'Import' and 'Reset' buttons become avaliable |
+| Click reset | All files disappear from import window, 'Import' and 'Reset' buttons become N/A |
+| Click 'Import' | File appears in your Library |
+
+  
+  ### Acceptance Criteria 
+ - User can upload files, using browse functionality
+
+
+ --------------------------------
+  
+  
+ # SPIWEB . As User i can create file 
+ ### Steps: 
+ - Launch app
+ - Sign In/Up (if not already done) 
+ - Press '+' icon 
+ - Press 'Written Text' button
+ - Press 'New Document' button
+ Expected result: New blank document created in Library (Default: name 'new record', 'Type some text here' is in 'text' field )
+  
+  ### Acceptance Criteria 
+ - User can create document
  
+  --------------------------------
+  
+  
+ # SPIWEB . As user i can set/change title for Item i Created/Uploaded
+ ### Steps: 
+ - [Create a File](#SPIWEB As-User-i-can-create-file) OR Choose any file from your Library, by clicking on it
+ 
+  | Action| Expected result |
+| ------ | ------ |
+| Click on Title field  | Cursor is on Title field |
+| User set empty Title field (NO symbols) | 'Save' button is N/A, 'Reset' button is Available  |
+| User set empty Title field (Spaces) | 'Save' button is N/A, 'Reset' button is Available  (!!!Right now it can be created like this) |
+| User set Title | 'Save' button becomes Available|
+| User click  'Reset' button | All changes, made after clicking on text field are undone |
+| User click  on any other file in Library | Pop-up 'Leave record' With two buttons ('Leave', 'Stay') appears |
+| User click  'Leave' button | All changes, made after clicking on text field are undone, user is redirected to file he clicked at |
+| User click  'Stay' button | User stays on book, which title he was editing, All changes, made after clicking on text field  stay, but are not saved, untill user clicks 'Save', |
+| User click  'Save' button | All changes are saved |
+
+  ### Acceptance Criteria 
+ - User can set/change title for any of his documents
+   --------------------------------
+  
+  
+ # SPIWEB . As user i can Paste/Type text into Created/Uploaded file 
+ 
+ ### Steps: 
+ 
+  - [Create a File](#SPIWEB As-User-i-can-create-file) OR Choose any file from your Library, by clicking on it
+ 
+   | Action| Expected result |
+| ------ | ------ |
+| Click on any  field  | Cursor is on Title field |
+| User set empty Title field (NO symbols) | 'Save' button is N/A, 'Reset' button is Available  |
+| User set empty Title field (Spaces) | 'Save' button is N/A, 'Reset' button is Available  (!!!Right now it can be created like this) |
+| User set Title | 'Save' button becomes Available|
+| User click  'Reset' button | All changes, made after clicking on text field are undone |
+| User click  'Save' button | All changes are saved |
  
  
  
