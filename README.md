@@ -308,10 +308,56 @@
     --------------------------------
   
   
- # SPIWEB . As user i can Report an Issue 
+ # SPIWEB . As User i can see list of uploaded files 
  
  ### Steps: 
+ - Launch app 
+ - Sign In/Up > close settings (If NOT signed in before)
  
+ Expected result: List of all items, added to library before is on the left side, ordered by date added. If no items added (or all items were deleted) 'No items in the folder yet' is displayed
+ 
+  ### Acceptance Criteria 
+ - User can see all items, he added to library before
+ 
+ 
+     --------------------------------
+  
+  
+ # SPIWEB . AS User i can choose item i want to listen to 
+ 
+ ### Steps: 
+ - Launch app 
+ - Sign In/Up > close settings (If NOT signed in before)
+ - Import/Create some items (if NOT done before) 
+ - Choose any item 
+ 
+ Expected result: Listening screen appears with such attributes: 
+  - Text, you created/uploaded*
+  - Title of the text (above text, and on bottom bar)*
+  - Play/Pause button (Only at bottom bar)*
+  - Skip buttons (Only at bottom bar)*
+  - Voice settings button  (Only at bottom bar) 
+  - Display settings button (Only at bottom bar)*
+  - Speed settings button  (Only at bottom bar)*
+  - Time, that will take to listen to shis text (above text, and on bottom bar) 
+  -  Time remaining ( currently not implemented)  (Above text) 
+  - Search button (Above text)*
+  - Cover photo (above text, and on bottom bar) 
+  
+    ### Acceptance Criteria 
+ - User can open and listen to any item, he added to library 
+ - All core* features work correctly
+ 
+      --------------------------------
+  
+  
+ # SPIWEB . As User i can Pause and Continue listening via Pause/Play button 
+ 
+ ### Steps: 
+ - Launch app 
+ - Sign In/Up > close settings (If NOT signed in before)
+ - Import/Create some items (if NOT done before) 
+ - Choose any item 
  
  
  
