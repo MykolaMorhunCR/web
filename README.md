@@ -157,30 +157,61 @@
 | User set Title | 'Save' button becomes Available|
 | User click  'Reset' button | All changes, made after clicking on text field are undone |
 | User click  on any other file in Library | Pop-up 'Leave record' With two buttons ('Leave', 'Stay') appears |
-| User click  'Leave' button | All changes, made after clicking on text field are undone, user is redirected to file he clicked at |
-| User click  'Stay' button | User stays on book, which title he was editing, All changes, made after clicking on text field  stay, but are not saved, untill user clicks 'Save', |
+| User click  'Leave' button | All changes, made after clicking on 'title' field are undone, user is redirected to file he clicked at |
+| User click  'Stay' button | User stays on book, which title he was editing, All changes, made after clicking on 'title' field  stay, but are not saved, untill user clicks 'Save', |
 | User click  'Save' button | All changes are saved |
 
   ### Acceptance Criteria 
  - User can set/change title for any of his documents
+ 
    --------------------------------
   
   
- # SPIWEB . As user i can Paste/Type text into Created/Uploaded file 
+ # SPIWEB . As user i can Edit text in Created/Uploaded file
  
  ### Steps: 
  
-  - [Create a File](#SPIWEB As-User-i-can-create-file) OR Choose any file from your Library, by clicking on it
+ Flow №1 Edit text in created before or uploaded file
+ 
+  - Choose any file from your Library, by clicking on it
+  - Press on 'Display' button 
+  - Toggle 'Edit text' switcher
  
    | Action| Expected result |
 | ------ | ------ |
-| Click on any  field  | Cursor is on Title field |
-| User set empty Title field (NO symbols) | 'Save' button is N/A, 'Reset' button is Available  |
-| User set empty Title field (Spaces) | 'Save' button is N/A, 'Reset' button is Available  (!!!Right now it can be created like this) |
-| User set Title | 'Save' button becomes Available|
-| User click  'Reset' button | All changes, made after clicking on text field are undone |
+| Click on any part of 'text' field  | Cursor is on appropriate place on 'text' field |
+| User types any text | 'Save' and 'Reset' buttons appear below, appropriate text is typed in selected place  |
+| User pastes any text from clipboard | 'Save' and 'Reset' buttons appear below, appropriate text is pasted in selected place |
+| User deletes any text | 'Save' and 'Reset' buttons appear below, appropriate text is deleted |
+| User click  'Reset' button | All changes, made after clicking on 'text' field are undone |
 | User click  'Save' button | All changes are saved |
+
+ Flow №2 Paste/type text to newly created document 
  
+ - [Create a File](#SPIWEB As-User-i-can-create-file) 
+  
+   | Action| Expected result |
+| ------ | ------ |
+| Click on the start of 'text' field  | Cursor is on appropriate place on 'text' field |
+| User types any text | 'Save' and 'Reset' buttons appear below, appropriate text is typed in selected place  |
+| User pastes any text from clipboard | 'Save' and 'Reset' buttons appear below, appropriate text is pasted in selected place |
+| User deletes any text | 'Save' and 'Reset' buttons appear below, appropriate text is deleted |
+| User click  'Reset' button | All changes, made after clicking on 'text' field are undone |
+| User click  'Save' button | All changes are saved |
+
+
+  ### Acceptance Criteria 
+ - User can edit any document in his library 
+ - User can paste text to his documents
+ - User can save changes he made 
+ - User can undo changes he made 
+ 
+  --------------------------------
+  
+  
+ # SPIWEB . As user i can Edit text in Created/Uploaded file
+ 
+ ### Steps: 
  
  
  
