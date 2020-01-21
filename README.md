@@ -536,7 +536,7 @@
 ------------------------------
 
 # Sign In is obligatory
-User can't most of actions, mentioned above without signing in. He can only use [Settings]() screen
+User can't most of actions, mentioned above without signing in. He can only use Settings screen
 
     
 # Sync functionality flow
