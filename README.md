@@ -80,6 +80,7 @@
  
  # SPIWEB 0102. As User I can Sign In Via Email + Password 
  ### Steps: 
+ 
  - Launch app
  
  | Action| Expected result |
@@ -164,7 +165,7 @@
   
  # SPIWEB 0204. As user I can set/change title for Item i Created/Uploaded
  ### Steps: 
- - [Create a File](#SPIWEB As-User-i-can-create-file) OR Choose any file from your Library, by clicking on it
+ - [Create a File](#SPIWEB-0203-As-User-i-can-create-file) OR Choose any file from your Library, by clicking on it
  
  | Action | Expected result |
 | ------ | ------ |
@@ -205,7 +206,7 @@
 
  Flow №2 Paste/type text to newly created document 
  
- - [Create a File](#SPIWEB As-User-i-can-create-file) 
+ - [Create a File](#SPIWEB-0203-As-User-i-can-create-file)
   
   | Action | Expected result |
 | ------ | ------ |
@@ -271,7 +272,7 @@
  
  ### Steps: 
  
- - Open [Settings](# SPIWEB . As User i can open settings )
+ - Open [Settings](#SPIWEB-0301-As-User-i-can-open-settings)
  
   | Action | Expected result |
 | ------ | ------ |
@@ -292,10 +293,10 @@
  
  ### Steps: 
  
- - Open [Settings](# SPIWEB . As User i can open settings )
+ - Open [Settings](#SPIWEB-0301-As-User-i-can-open-settings)
  - Click on 'Report an Issue' button 
  
-   | Action | Expected result |
+  | Action | Expected result |
 | ------ | ------ |
 | User clicks 'Type of feedsback' drop-menu  | Drop menu with all awailable types of feedback appear |
 | User sets any type | Type set, drop menu closed |
@@ -333,6 +334,7 @@
   ### Steps: 
   
  - Launch app
+ 
  - CLick on 'Listening' button 
  
  | Action | Expected result |
@@ -351,7 +353,7 @@
   
   ### Steps: 
 
- - Open Settings 
+ - Open [Settings](#SPIWEB-0301-As-User-i-can-open-settings)
  
  - CLick on 'Listening' button 
  
@@ -391,7 +393,7 @@
      --------------------------------
   
   
- # SPIWEB 0402. AS User I can choose item I want to listen to 
+ # SPIWEB 0402. As User I can choose item I want to listen to 
  
  ### Steps: 
  - Launch app 
@@ -423,7 +425,7 @@
  
  ### Steps: 
  - Launch app 
- - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to ) 
+ - Choose an [Item](#SPIWEB-0402-As-User-i-can-choose-item-i-want-to-listen-to) 
   
  
  | Action| Expected result |
@@ -442,7 +444,7 @@
 
  ### Steps: 
  - Launch app 
- - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
+ - Choose an [Item](#SPIWEB-0402-As-User-i-can-choose-item-i-want-to-listen-to) 
  - Start Listening (Press Play button)
  
 | Action| Expected result |
@@ -459,7 +461,7 @@
 
  ### Steps: 
  - Launch app 
- - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
+ - Choose an [Item](#SPIWEB-0402-As-User-i-can-choose-item-i-want-to-listen-to) 
  
 | Action| Expected result |
 | ------ | ------ |
@@ -477,7 +479,7 @@
 
 ### Steps:
  - Launch app 
- - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
+ - Choose an [Item](#SPIWEB-0402-As-User-i-can-choose-item-i-want-to-listen-to) 
  - Click on any word in text you are listening
  
  Expected result: Listening continues from appropriate word, appropriate word is highlighted
@@ -493,7 +495,7 @@
 # SPIWEB 0406. As User I can change voice of listening
  ### Steps: 
  - Launch app 
- - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
+ - Choose an [Item](#SPIWEB-0402-As-User-i-can-choose-item-i-want-to-listen-to) 
  - Click on 'Voice' button
  - Choose ANY of available voices
  
@@ -509,7 +511,7 @@
 
  ### Steps: 
  - Launch app 
- - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
+ - Choose an [Item](#SPIWEB-0402-As-User-i-can-choose-item-i-want-to-listen-to) 
  - Click on 'Search' icon
  
  | Action| Expected result |
