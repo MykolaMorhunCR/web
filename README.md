@@ -355,13 +355,125 @@
  
  ### Steps: 
  - Launch app 
- - Sign In/Up > close settings (If NOT signed in before)
- - Import/Create some items (if NOT done before) 
- - Choose any item 
+ - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to ) 
+  
+ 
+ | Action| Expected result |
+| ------ | ------ |
+| User press Pause | Listening Paused |
+| User press Play | Listening continues from where it stopped |
+
+ ### Acceptance Criteria 
+ - User can Press/pause his listening
+ - Listening continues from where it stopped 
+ - Play/Pause cause appropriate actions 
+ 
+ -----------------------
+
+# SPIWEB . As User I can Skip n seconds Forward/Backwards via Pressing Skip buttons
+
+ ### Steps: 
+ - Launch app 
+ - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
+ - Start Listening (Press Play button)
+ 
+| Action| Expected result |
+| ------ | ------ |
+| User press Forward skip | Listening skips forward for n seconds, Appropriate text is highlighted, listening continues from appropriate point |
+| User press Backwards skip | Listening skips backwards for n seconds, Appropriate text is highlighted, listening continues from appropriate point |
+ ### Acceptance Criteria 
+ - User can skip listening for appropriate interwals
+ - Listening continues from appropriate point
+ 
+  -----------------------------------
+
+# SPIOS 0404. As User I can change speed of listening
+
+ ### Steps: 
+ - Launch app 
+ - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
+ 
+| Action| Expected result |
+| ------ | ------ |
+| User changes speed via dragging | Speed and time remaning indicator are appropriately changed, correct speed is shown  |
+| User changes speed via clicking | Speed and time remaning indicator are appropriately changed, correct speed is shown |
+
+ ### Acceptance Criteria 
+ - Speed can be changed 
+ - Appropriate speed is set after changing
+ 
+  
+---------------------------
+
+# SPIOS 0405. As User I can navigate through text via clicking on word, I would like to start listening from 
+### Steps:
+ - Launch app 
+ - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
+ - Click on any word in text you are listening
+ 
+ Expected result: Listening continues from appropriate word, appropriate word is highlighted
+
+ ### Acceptance Criteria 
+ 
+ - Naviagating throgh text via tapping is possible
+ - Nothing is changed except from listening position highlighting and listening poing
+ 
+  
+  -----------------------
+
+# SPIOS 0408. As User I can change voice of listening
+ ### Steps: 
+ - Launch app 
+ - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
+ - Click on 'Voice' button
+ - Choose ANY of available voices
+ 
+ Expected result: Listening continues from appropriate word, appropriate word is highlighted, voice change is saved
+
+  ### Acceptance Criteria 
+ - User can set any of avaliable for him listening voices 
  
  
+   -----------------------
+
+# SPIOS 0408. As User I can search through text
+ ### Steps: 
+ - Launch app 
+ - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
+ - Click on 'Search' icon
  
+ | Action| Expected result |
+| ------ | ------ |
+| User clicks 'Search' icon | Search bar appears |
+| User types some text to search bar | This text is immedeately searched through item, you are in right now; Found matches are highlighted with orange color, match, you are looking at right now is highlighted with green; Counter on search bar shows: number of match you are at right now/total number of matches |
+| User deletes some text from search bar | This text is immedeately searched through item, you are in right now; Found matches are highlighted with orange color, match, you are looking at right now is highlighted with green; Counter on search bar shows: number of match you are at right now/total number of matches |
+| Search bar is empty | nothing happens |
+| User clicks 'down' icon | User moved to next matched pard of text |
+| User clicks 'up' icon | User moved to previous matched pard of text |
+| User closes search bar | Search bar closed, all extra highlighting from search disappeared, user is left on the same part of the text, where he was.  |
+
+
+ Expected result: Listening continues from appropriate word, appropriate word is highlighted, voice change is saved
+
+  ### Acceptance Criteria 
+ - User can find whatever text he vants in any document in his library
+ - Appropriate text is being searched and highlighted
  
+ ------------------------------
+# GENERAL FUNCTIONALITY 
+------------------------------
+
+# Sign In is obligatory
+User can't most of actions, mentioned above without signing in. He can only use [Settings]() screen
+    
+# Sync functionality flow
+
+    
+### User Sign In
+Expected result : Books sync with created account . Books, that are already connected to this account, are added to library. Synced books become avaliable on ANY platform, when user signs in into this account.
+
+### User Log Out
+Expected result: Session deleted. Every change (added/edited books), made during this session must be saved and accessed on any platform after signing in to this account. 
  
  
  
