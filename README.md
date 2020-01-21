@@ -155,7 +155,7 @@
  
  - [Create a File](#SPIWEB As-User-i-can-create-file) 
   
-   | Action| Expected result |
+  | Action | Expected result |
 | ------ | ------ |
 | Click on the start of 'text' field  | Cursor is on appropriate place on 'text' field |
 | User types any text | 'Save' and 'Reset' buttons appear below, appropriate text is typed in selected place  |
