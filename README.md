@@ -1,5 +1,11 @@
+ --------------------------------
+ # Epic 01. Sign In/Up 
+ --------------------------------
 
-# SPIWEB . As User I can Sign Up Via Email + Password 
+
+
+
+# SPIWEB 0101. As User I can Sign Up Via Email + Password 
  ### Steps: 
  - Launch app
  - Press 'Sign Up' button 
@@ -21,7 +27,7 @@
  --------------------------------
  
  
- # SPIWEB . As User I can Sign In Via Email + Password 
+ # SPIWEB 0102. As User I can Sign In Via Email + Password 
  ### Steps: 
  - Launch app
  
@@ -37,57 +43,15 @@
 
   ### Acceptance Criteria 
  - User can Sign Up vie Email + password Combination 
- 
+
+
+  
   --------------------------------
- 
-  # SPIWEB . As User i can set my Listening preferences 
-  
-  Flow №1 User is not signed in
-  
-  ### Steps: 
-  
- - Launch app
- - CLick on 'Listening' button 
- 
-  | Action| Expected result |
-| ------ | ------ |
-| User clicks 'Default Listening Language' drop-menu  | Drop menu with all awailable voices appear |
-| User sets any voice | Voice set, drop menu closed |
-| User clicks 'Default Speed' drop-menu  | Drop menu with awailable default speed choices appear |
-| User sets any available speed | Speed set, drop menu closed |
-| User clicks 'Automatic Speed Ramping' switcher(state - OFF)   |  Switcher lights up with vlue and swipes right. 'Automatic Speed Ramping' settings become available|
-| User clicks 'Automatic Speed Ramping' switcher(state - ON)   |  Switcher lights goes grey, 'Automatic Speed Ramping' settings become N/A|
-| User clicks 'Speed Ramping' drop-menu  | Drop menu with awailable  speed ramping choices appear |
-| User sets any available speed | Speed set, drop menu closed |
-
-
- Flow №1 User is signed in
-  
-  ### Steps: 
-
- - Open Settings 
- 
- - CLick on 'Listening' button 
- 
-  | Action| Expected result |
-| ------ | ------ |
-| User clicks 'Default Listening Language' drop-menu  | Drop menu with all awailable voices appear |
-| User sets any voice | Voice set, drop menu closed |
-| User clicks 'Default Speed' drop-menu  | Drop menu with awailable default speed choices appear |
-| User sets any available speed | Speed set, drop menu closed |
-| User clicks 'Automatic Speed Ramping' switcher(state - OFF)   |  Switcher lights up with vlue and swipes right. 'Automatic Speed Ramping' settings become available|
-| User clicks 'Automatic Speed Ramping' switcher(state - ON)   |  Switcher lights goes grey, 'Automatic Speed Ramping' settings become N/A|
-| User clicks 'Speed Ramping' drop-menu  | Drop menu with awailable  speed ramping choices appear |
-| User sets any available speed | Speed set, drop menu closed |
-
-  ### Acceptance Criteria 
- - User can open listening preferences screen 
- - User can set Default Listening Voice 
- 
+    # Epic 02. File management
   --------------------------------
   
   
- # SPIWEB . As User I can import files from computer via Drag'n'Drop function 
+ # SPIWEB 0201. As User I can import files from computer via Drag'n'Drop function 
  ### Steps: 
  - Launch app
  - Sign In/Up (if not already done) 
@@ -110,7 +74,7 @@
   --------------------------------
   
   
- # SPIWEB . As User I can import files from computer via Browse function 
+ # SPIWEB 0202. As User I can import files from computer via Browse function 
  ### Steps: 
  - Launch app
  - Sign In/Up (if not already done) 
@@ -131,7 +95,7 @@
  --------------------------------
   
   
- # SPIWEB . As User I can create file 
+ # SPIWEB 0203. As User I can create a file 
  ### Steps: 
  - Launch app
  - Sign In/Up (if not already done) 
@@ -146,7 +110,7 @@
   --------------------------------
   
   
- # SPIWEB . As user I can set/change title for Item i Created/Uploaded
+ # SPIWEB 0204. As user I can set/change title for Item i Created/Uploaded
  ### Steps: 
  - [Create a File](#SPIWEB As-User-i-can-create-file) OR Choose any file from your Library, by clicking on it
  
@@ -206,11 +170,14 @@
  - User can paste text to his documents
  - User can save changes he made 
  - User can undo changes he made 
- 
+
+    
+  --------------------------------
+  #Epic 03. Settings. 
   --------------------------------
   
   
- # SPIWEB . As User i can open settings 
+ # SPIWEB 0301. As User I can open settings 
  
  ### Steps: 
  
@@ -248,7 +215,7 @@
    --------------------------------
   
   
- # SPIWEB . As User I can set my account name 
+ # SPIWEB 0302. As User I can set my account name 
  
  ### Steps: 
  
@@ -269,7 +236,7 @@
    --------------------------------
   
   
- # SPIWEB . As user i can Report an Issue 
+ # SPIWEB 0303. As user I can Report an Issue 
  
  ### Steps: 
  
@@ -306,9 +273,58 @@
  
  
     --------------------------------
+     
+  # SPIWEB 0304. As User I can set my Listening preferences 
   
+  Flow №1 User is not signed in
   
- # SPIWEB . As User i can see list of uploaded files 
+  ### Steps: 
+  
+ - Launch app
+ - CLick on 'Listening' button 
+ 
+  | Action| Expected result |
+| ------ | ------ |
+| User clicks 'Default Listening Language' drop-menu  | Drop menu with all awailable voices appear |
+| User sets any voice | Voice set, drop menu closed |
+| User clicks 'Default Speed' drop-menu  | Drop menu with awailable default speed choices appear |
+| User sets any available speed | Speed set, drop menu closed |
+| User clicks 'Automatic Speed Ramping' switcher(state - OFF)   |  Switcher lights up with vlue and swipes right. 'Automatic Speed Ramping' settings become available|
+| User clicks 'Automatic Speed Ramping' switcher(state - ON)   |  Switcher lights goes grey, 'Automatic Speed Ramping' settings become N/A|
+| User clicks 'Speed Ramping' drop-menu  | Drop menu with awailable  speed ramping choices appear |
+| User sets any available speed | Speed set, drop menu closed |
+
+
+ Flow №1 User is signed in
+  
+  ### Steps: 
+
+ - Open Settings 
+ 
+ - CLick on 'Listening' button 
+ 
+  | Action| Expected result |
+| ------ | ------ |
+| User clicks 'Default Listening Language' drop-menu  | Drop menu with all awailable voices appear |
+| User sets any voice | Voice set, drop menu closed |
+| User clicks 'Default Speed' drop-menu  | Drop menu with awailable default speed choices appear |
+| User sets any available speed | Speed set, drop menu closed |
+| User clicks 'Automatic Speed Ramping' switcher(state - OFF)   |  Switcher lights up with vlue and swipes right. 'Automatic Speed Ramping' settings become available|
+| User clicks 'Automatic Speed Ramping' switcher(state - ON)   |  Switcher lights goes grey, 'Automatic Speed Ramping' settings become N/A|
+| User clicks 'Speed Ramping' drop-menu  | Drop menu with awailable  speed ramping choices appear |
+| User sets any available speed | Speed set, drop menu closed |
+
+  ### Acceptance Criteria 
+ - User can open listening preferences screen 
+ - User can set Default Listening Voice 
+ 
+
+    
+--------------------------------
+# Epic 04. Library & Listening 
+ --------------------------------
+    
+ # SPIWEB 0401. As User I can see list of uploaded/created files 
  
  ### Steps: 
  - Launch app 
@@ -323,7 +339,7 @@
      --------------------------------
   
   
- # SPIWEB . AS User i can choose item i want to listen to 
+ # SPIWEB 0402. AS User I can choose item I want to listen to 
  
  ### Steps: 
  - Launch app 
@@ -351,7 +367,7 @@
       --------------------------------
   
   
- # SPIWEB . As User i can Pause and Continue listening via Pause/Play button 
+ # SPIWEB 0403. As User I can Pause and Continue listening via Pause/Play button 
  
  ### Steps: 
  - Launch app 
@@ -370,7 +386,7 @@
  
  -----------------------
 
-# SPIWEB . As User I can Skip n seconds Forward/Backwards via Pressing Skip buttons
+# SPIWEB 0404. As User I can Skip n seconds Forward/Backwards via Pressing Skip buttons
 
  ### Steps: 
  - Launch app 
@@ -387,7 +403,7 @@
  
   -----------------------------------
 
-# SPIOS 0404. As User I can change speed of listening
+# SPIWEB 0404. As User I can change speed of listening
 
  ### Steps: 
  - Launch app 
@@ -405,7 +421,7 @@
   
 ---------------------------
 
-# SPIOS 0405. As User I can navigate through text via clicking on word, I would like to start listening from 
+# SPIWEB 0405. As User I can navigate through text via clicking on word, I would like to start listening from 
 ### Steps:
  - Launch app 
  - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
@@ -421,7 +437,7 @@
   
   -----------------------
 
-# SPIOS 0408. As User I can change voice of listening
+# SPIWEB 0406. As User I can change voice of listening
  ### Steps: 
  - Launch app 
  - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
@@ -436,7 +452,7 @@
  
    -----------------------
 
-# SPIOS 0408. As User I can search through text
+# SPIWEB 0407. As User I can search through text
  ### Steps: 
  - Launch app 
  - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
@@ -465,6 +481,7 @@
 
 # Sign In is obligatory
 User can't most of actions, mentioned above without signing in. He can only use [Settings]() screen
+
     
 # Sync functionality flow
 
