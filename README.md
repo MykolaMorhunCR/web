@@ -1,3 +1,54 @@
+# Table of Contents 
+
+- [Epic 01. Sign In/Up](#Epic-01-Sign-InUp)
+
+    - [As User I can Sign Up Via Email + Password ](#SPIWEB-0101-As-User-I-can-Sign-Up-Via-Email--Password)
+    
+    - [As User I can Sign In Via Email + Password](#SPIWEB-0102-As-User-I-can-Sign-In-Via-Email--Password)
+    
+- [Epic 02. File management](#Epic-02-File-management)  
+
+    - [As User I can import files from computer via Drag'n'Drop function ](#SPIWEB-0201-As-User-I-can-import-files-from-computer-via-DragnDrop-function)  
+    
+    - [As User I can import files from computer via Browse function](#SPIWEB-0202-As-User-I-can-import-files-from-computer-via-Browse-function)
+    
+    - [As User I can create a file](#SPIWEB-0203-As-User-I-can-create-a-file)
+    
+    - [As user I can set/change title for Item i Created/Uploaded](#SPIWEB-0204-As-user-I-can-setchange-title-for-Item-i-CreatedUploaded)
+    
+    - [As user I can Edit text in Created/Uploaded file](#SPIWEB-0205-As-user-I-can-Edit-text-in-CreatedUploaded-file)
+    
+- [Epic 03. Settings](#Epic-03-Settings)
+ 
+    - [As User I can open settings](#SPIWEB-0301-As-User-I-can-open-settings)
+    
+    - [As User I can set my account name](#SPIWEB-0302-As-User-I-can-set-my-account-name)
+    
+    - [As user I can Report an Issue](#SPIWEB-0303-As-user-I-can-Report-an-Issue)
+    
+    - [As User I can set my Listening preferences](#SPIWEB-0304-As-User-I-can-set-my-Listening-preferences)
+    
+- [Epic 04. Library & Listening](#Epic-04-Library--Listening)
+
+    - [As User I can see list of uploaded/created files](#SPIWEB-0401-As-User-I-can-see-list-of-uploadedcreated-files)
+    
+    - [As User I can choose item I want to listen to](#SPIWEB-0402-As-User-I-can-choose-item-I-want-to-listen-to)
+    
+    - [As User I can Pause and Continue listening via Pause/Play button](#SPIWEB-0403-As-User-I-can-Pause-and-Continue-listening-via-PausePlay-button)
+    
+    - [As User I can Skip n seconds Forward/Backwards via Pressing Skip buttons](#SPIWEB-0404-As-User-I-can-Skip-n-seconds-ForwardBackwards-via-Pressing-Skip-buttons)
+    
+    - [As User I can change speed of listening](#SPIWEB-0404-As-User-I-can-change-speed-of-listening)
+    
+    - [As User I can navigate through text via clicking on word, I would like to start listening from](#SPIWEB-0405-As-User-I-can-navigate-through-text-via-clicking-on-word-I-would-like-to-start-listening-from)
+    
+    - [As User I can change voice of listening](#SPIWEB-0406-As-User-I-can-change-voice-of-listening)
+    
+    - [As User I can search through text](#SPIWEB-0407-As-User-I-can-search-through-text)
+ 
+ - [# General functionality](#GENERAL-FUNCTIONALITY)
+ 
+ 
  --------------------------------
  # Epic 01. Sign In/Up 
  --------------------------------
@@ -75,6 +126,7 @@
   
   
  # SPIWEB 0202. As User I can import files from computer via Browse function 
+ 
  ### Steps: 
  - Launch app
  - Sign In/Up (if not already done) 
@@ -132,7 +184,7 @@
    --------------------------------
   
   
- # SPIWEB . As user I can Edit text in Created/Uploaded file
+ # SPIWEB 0205. As user I can Edit text in Created/Uploaded file
  
  ### Steps: 
  
@@ -173,7 +225,7 @@
 
     
   --------------------------------
-  #Epic 03. Settings. 
+  #Epic 03. Settings
   --------------------------------
   
   
@@ -422,6 +474,7 @@
 ---------------------------
 
 # SPIWEB 0405. As User I can navigate through text via clicking on word, I would like to start listening from 
+
 ### Steps:
  - Launch app 
  - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
@@ -453,6 +506,7 @@
    -----------------------
 
 # SPIWEB 0407. As User I can search through text
+
  ### Steps: 
  - Launch app 
  - Choose an [Item]( # SPIWEB . AS User i can choose item i want to listen to )
