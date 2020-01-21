@@ -46,9 +46,9 @@
 
 
   
-  --------------------------------
-    # Epic 02. File management
-  --------------------------------
+   --------------------------------
+     # Epic 02. File management
+   --------------------------------
   
   
  # SPIWEB 0201. As User I can import files from computer via Drag'n'Drop function 
@@ -114,7 +114,7 @@
  ### Steps: 
  - [Create a File](#SPIWEB As-User-i-can-create-file) OR Choose any file from your Library, by clicking on it
  
-  | Action| Expected result |
+ | Action | Expected result |
 | ------ | ------ |
 | Click on Title field  | Cursor is on Title field |
 | User set empty Title field (NO symbols) | 'Save' button is N/A, 'Reset' button is Available  |
