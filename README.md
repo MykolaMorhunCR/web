@@ -273,7 +273,7 @@
  
  - Open [Settings](# SPIWEB . As User i can open settings )
  
-   | Action| Expected result |
+  | Action | Expected result |
 | ------ | ------ |
 | Click on 'Display Name' field  | Cursor is on 'Display Name' field |
 | User set new acc name | Update button becomes Available  |
@@ -295,7 +295,7 @@
  - Open [Settings](# SPIWEB . As User i can open settings )
  - Click on 'Report an Issue' button 
  
-    | Action| Expected result |
+   | Action | Expected result |
 | ------ | ------ |
 | User clicks 'Type of feedsback' drop-menu  | Drop menu with all awailable types of feedback appear |
 | User sets any type | Type set, drop menu closed |
@@ -335,7 +335,7 @@
  - Launch app
  - CLick on 'Listening' button 
  
-  | Action| Expected result |
+ | Action | Expected result |
 | ------ | ------ |
 | User clicks 'Default Listening Language' drop-menu  | Drop menu with all awailable voices appear |
 | User sets any voice | Voice set, drop menu closed |
