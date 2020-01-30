@@ -1,5 +1,7 @@
 # Table of Contents 
 
+core features are marked with ':star:' sign
+
 - [Epic 01. Sign In/Up](#Epic-01-Sign-InUp)
 
     - [:star: As User I can Sign Up Via Email + Password ](#SPIWEB-0101-As-User-I-can-Sign-Up-Via-Email--Password)
